@@ -1,0 +1,25 @@
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 3, 59);
+}
+
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer form .inputName {
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.formContainer form .btnSubmit {
+    padding: 5px 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
